@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('woff'), url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('woff'), url('DobkinPlain.ttf') format('truetype');
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Paige Mabbitt
+   Date:  9.7.18 
+   
+   Filename: lake_styles.css
+
+*/
+html {
+    background-color: rgb(140, 140, 140);
+}
+
+body {
+    color: rgb(167, 164, 164);
+    background-color: rgba(1, 0, 73, 0.5);
+}
+
+a {
+    color: rgb(140, 140, 140);
+}
+
+header nav {
+    background-color: rgba(31, 7, 63, 0.76);
+}
+
+section#leftcol li,
+section#rightcol li {
+    color: rgb(31, 5, 80);
+}
+
+section#leftcol>h1 {
+    font-family: Champagne;
+    font-size: 4em;
+    margin: 5px 0px 3px;
+}
+
+section#rightcol {
+    background-color: rgba(29, 13, 49, 0.8);
+}
+
+/*bottom asides red and yellow respectivley*/
+/*rightcol same color as header purple*/
+/*use dobkinplain for other headings*/
+/*change hyperlink colors*/
+/*change layout widths and padding AFTER all other changes for simplicity*/
