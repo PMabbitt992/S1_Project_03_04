@@ -22,26 +22,50 @@
    Filename: lake_styles.css
 
 */
+/*Genral Body Styles*/
 html {
     background-color: rgb(140, 140, 140);
 }
 
 body {
     color: rgb(167, 164, 164);
-    background-color: rgba(1, 0, 73, 0.5);
+    background-color: rgba(5, 15, 70, 0.5);
 }
 
+/*Header Nav*/
 a {
     color: rgb(140, 140, 140);
+    text-decoration: none;
 }
 
 header nav {
     background-color: rgba(31, 7, 63, 0.76);
+    font-family: Dobkin;
+    font-size: 1.2em;
 }
 
-section#leftcol li,
-section#rightcol li {
-    color: rgb(31, 5, 80);
+header a:hover {
+    background-color: rgba(31, 7, 63, 0.9);
+    color: rgb(230, 230, 230), white;
+}
+
+/*Section Style*/
+section#rightcol {
+    background-color: rgba(29, 13, 49, 0.8);
+}
+
+section#rightcol h2 {
+    text-decoration: underline;
+    font-family: Dobkin;
+    font-size: 2em;
+}
+
+section#rightcol nav ul li {
+    list-style: none;
+}
+
+section#rightcol a:hover {
+    color: rgb(230, 230, 230);
 }
 
 section#leftcol>h1 {
@@ -50,12 +74,55 @@ section#leftcol>h1 {
     margin: 5px 0px 3px;
 }
 
-section#rightcol {
-    background-color: rgba(29, 13, 49, 0.8);
+section#leftcol>p::first-letter {
+    font-family: Champagne;
+    font-size: 1.6em;
 }
 
-/*bottom asides red and yellow respectivley*/
-/*rightcol same color as header purple*/
-/*use dobkinplain for other headings*/
-/*change hyperlink colors*/
-/*change layout widths and padding AFTER all other changes for simplicity*/
+section#leftcol aside {
+    color: rgb(47, 1, 131);
+}
+
+section#leftcol aside:first-of-type {
+    background-color: rgba(255, 247, 97, 0.85);
+}
+
+section#leftcol aside:last-of-type {
+    background-color: rgba(255, 121, 97, 0.85);
+}
+
+section#leftcol aside h1 {
+    font-family: Dobkin;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+section#leftcol aside h2 {
+    font-weight: normal;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+section#leftcol aside a:hover {
+    color: rgb(47, 1, 131);
+}
+
+/*Blockquote*/
+blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    background-color: rgba(31, 7, 63, 0.76);
+}

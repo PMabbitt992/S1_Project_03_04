@@ -23,11 +23,15 @@ body>header>img {
 	margin: 0;
 }
 
+body>header>nav {
+	padding-top: 2px;
+}
+
 body>section#leftcol {
 	width: 70%;
 	float: left;
 	margin-left: 0%;
-	margin-right: 4%;
+	margin-right: 0%;
 }
 
 body>section#rightcol {
@@ -35,12 +39,12 @@ body>section#rightcol {
 	float: right;
 }
 
-body>section#leftcol>p{
- /*push right*/
-}
-
 body>section#rightcol>nav {
 	margin-left: 10%
+}
+
+body>section#rightcol>nav>ul {
+	padding-left: 25px;
 }
 
 footer {
@@ -108,12 +112,32 @@ header>nav a {
 section#leftcol aside {
 	width: 42%;
 	float: left;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	margin-bottom: 20px;
+	margin: 5% 0% 10% 8%;
+}
+
+section#leftcol aside>h1 {
+	margin-bottom: 5px;
+}
+
+section#leftcol>p,
+body section#leftcol>h1 {
+	margin-left: 2%;
 }
 
 section#leftcol img {
-	width: 100%;
+	width: 107.1%;
 	display: block;
+}
+
+section#leftcol>hr {
+	width: 106.9%;
+}
+
+section#rightcol blockquote {
+	margin-top: 65px;
+	margin-bottom: 35px;
+}
+
+section#rightcol h2 {
+	margin-bottom: 10px;
 }
