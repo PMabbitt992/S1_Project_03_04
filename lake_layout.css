@@ -23,7 +23,7 @@ body>header>img {
 	margin: 0;
 }
 
-body>header>nav {
+body>header>nav a {
 	padding-top: 2px;
 }
 
@@ -119,9 +119,12 @@ section#leftcol aside>h1 {
 	margin-bottom: 5px;
 }
 
-section#leftcol>p,
-body section#leftcol>h1 {
+section#leftcol>p {
 	margin-left: 2%;
+}
+
+body section#leftcol>h1 {
+	margin: 7px 20px 0px;
 }
 
 section#leftcol img {
@@ -131,6 +134,7 @@ section#leftcol img {
 
 section#leftcol>hr {
 	width: 106.9%;
+	margin-top: 0px;
 }
 
 section#rightcol blockquote {

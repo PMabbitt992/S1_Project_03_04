@@ -32,24 +32,27 @@ body {
     background-color: rgba(5, 15, 70, 0.5);
 }
 
-/*Header Nav*/
+/*General link text color and no decoration*/
 a {
     color: rgb(140, 140, 140);
     text-decoration: none;
 }
 
+/*Header Nav: Link hover styles, background color, text size and font*/
 header nav {
     background-color: rgba(31, 7, 63, 0.76);
     font-family: Dobkin;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 header a:hover {
     background-color: rgba(31, 7, 63, 0.9);
-    color: rgb(230, 230, 230), white;
+    color: white;
 }
 
-/*Section Style*/
+/*Section Style: Text styles(font, color, size, weight), active link color, list markers, and background colors*/
+
+/*Right Col*/
 section#rightcol {
     background-color: rgba(29, 13, 49, 0.8);
 }
@@ -65,13 +68,13 @@ section#rightcol nav ul li {
 }
 
 section#rightcol a:hover {
-    color: rgb(230, 230, 230);
+    color: white;
 }
 
+/*Left Col*/
 section#leftcol>h1 {
     font-family: Champagne;
     font-size: 4em;
-    margin: 5px 0px 3px;
 }
 
 section#leftcol>p::first-letter {
@@ -107,7 +110,7 @@ section#leftcol aside a:hover {
     color: rgb(47, 1, 131);
 }
 
-/*Blockquote*/
+/*Blockquote: Font style, size and content*/
 blockquote {
     font-style: italic;
     font-size: 1.1em;
@@ -121,7 +124,7 @@ blockquote::after {
     content: close-quote;
 }
 
-/*Footer*/
+/*Footer: Alignment and background color*/
 footer {
     text-align: center;
     background-color: rgba(31, 7, 63, 0.76);
